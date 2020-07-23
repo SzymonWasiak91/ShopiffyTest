@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Shopify1(failed)">
+    <classes>
+      <class name="Tests.ShopifyTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_ID5_checkPinterestButton"/>
+          <include name="setUP"/>
+          <include name="tearDownReport"/>
+          <include name="test_ID2_sendMessageWithWrongEmail"/>
+          <include name="test_ID1_checkElements"/>
+          <include name="setUpReporter"/>
+          <include name="test_ID4_checkTwitterButton"/>
+          <include name="test_ID8_sendMessageCorrectly"/>
+        </methods>
+      </class> <!-- Tests.ShopifyTest -->
+    </classes>
+  </test> <!-- Shopify1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
